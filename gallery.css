@@ -1,0 +1,29 @@
+body{
+   background-color: wheat;
+   margin: 0px;
+
+}
+p{
+    text-align: start;
+
+}
+.header{
+    text-align: center;
+    /* margin: 0; */
+}
+.container{
+    max-height: 940px;
+    margin: 0;
+    padding-left: 15em;
+    object-fit: cover;
+
+}
+.logo{
+    width: 30px;
+}
+footer{
+    text-align: center;
+    font-size: 20px;  
+    padding-left: 10em;
+ 
+  }
