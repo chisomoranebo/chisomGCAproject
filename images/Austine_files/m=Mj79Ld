@@ -1,0 +1,13 @@
+/* _GlobalPrefix_ */
+/*_JS*/
+/*_M:Mj79Ld*/
+try{
+x().Ma("Mj79Ld");
+var Etk=function(b){QI.call(this,b.Oc);this.ha=new Map;this.Wa=new Vz(this)};D(Etk,QI);Etk.Bc=function(){return{}};Etk.prototype.Ba=function(b){this.ha.has(b)?this.ha.get(b).add(hrg):(this.ha.set(b,new Set([hrg])),this.Wa.listen(b,qxa,this.wa))};Etk.prototype.Aa=function(b){this.ha.has(b)&&(this.ha.get(b)["delete"](hrg),0==this.ha.get(b).size&&(this.Wa.Xc(b,qxa,this.wa),this.ha["delete"](b)))};
+Etk.prototype.wa=function(b){if(b&&b.currentTarget){var c=b.currentTarget;if(c.getSelection&&this.ha.has(c)){var d=c.getSelection();if(d&&d.containsNode&&d.removeAllRanges)for(var e=aq(this.ha.get(c)),f=e.next();!f.done;f=e.next()){f=Ns(f.value,c);for(var g=0;g<f.length;g++)if(d.containsNode(f[g],!0)){b.preventDefault();d.removeAllRanges();return}}}}};RI(irg,Etk);
+
+x().La();
+
+}catch(e){_DumpException(e)}
+/* _GlobalSuffix_ */
+// Google Inc.

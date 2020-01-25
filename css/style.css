@@ -1,0 +1,17 @@
+/*This is my style sheet do not tamper with anything*/
+.card-body p {
+    margin-bottom:0;
+    }
+    .card-body p span {
+        color:black;
+        text-decoration: underline;
+    }
+    .card {
+        transition: all 0.7s;
+        background-color: rgb(133, 103, 23);
+    }
+    .card:hover {
+        background-color: seagreen;
+        box-shadow: 5px 5px 5px 10px red;
+    }
+    
